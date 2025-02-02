@@ -1,3 +1,5 @@
+$stars-size: 16px;
+
 body {
   margin: 0;
 }
@@ -7,8 +9,8 @@ body {
 }
 
 .stars__star {
-  width: 16px;
-  height: 16px;
+  width: $stars-size;
+  height: $stars-size;
   background-image: url('../images/star.svg');
   margin-right: 4px;
   background-position: center;
